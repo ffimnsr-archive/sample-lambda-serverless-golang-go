@@ -1,0 +1,16 @@
+# -*- restclient -*-
+#
+# Test API
+#
+GET https://1lj0nbjmjg.execute-api.us-east-2.amazonaws.com/staging/ping
+User-Agent: Emacs Restclient
+
+#
+# Test POST API
+#
+POST https://1lj0nbjmjg.execute-api.us-east-2.amazonaws.com/staging/ping
+Content-Type: application/json
+
+{
+  "name": "Olaf"
+}
